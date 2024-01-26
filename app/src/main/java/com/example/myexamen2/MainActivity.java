@@ -46,9 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
         String value1=txtPrimero.getText().toString();
         String value2=txtSegundo.getText().toString();
-
         txtPromedio.setText(""+calcularPromedio(Double.parseDouble(value1), Double.parseDouble(value2)));
-
         /**
         LayoutInflater inflater = LayoutInflater.from(this);
         View view = inflater.inflate(R.layout.dialog_confirmation, null);
